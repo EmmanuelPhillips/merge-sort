@@ -55,7 +55,7 @@ void print_list(std::vector<int> &v) {
 }
 
 int main() {
-  std::vector<int> v{};
+  std::vector<int> v{6, 4, 36, 2, 9, 5, 78, 1, 7, 13, 20, 8};
   std::cout << "List before sorting: ";
   print_list(v);
   v = merge_sort(v);
