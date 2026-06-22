@@ -59,6 +59,7 @@ int main() {
   std::cout << "List before sorting: ";
   print_list(v);
   v = merge_sort(v);
+  std::cout << "List after sorting: ";
   print_list(v);
   return 0;
 }
